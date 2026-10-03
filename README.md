@@ -20,7 +20,7 @@ Full recall returns source conversations chronologically when they fit 100,000 e
 - `results/*/predictions.jsonl`, `scored.jsonl`, summaries and gates: every question and official outcome.
 - `results/completed_results_20261003.json`: paired comparisons and conversation-cluster intervals.
 - `LOCOMO_RCA_20261003.md`: descriptive failure audit, separated from any future method development.
-- Release asset `locomo-candidate-receipts-20261003.tar.gz`: full supplied contexts, prompts, raw HTTP requests/responses, raw judge outputs, provenance and preparation timings. Download and verify against `results/artifact-sha256.json`.
+- [Release v0.1.0-locomo-frozen](https://github.com/austindixson/homebase-memory-eval/releases/tag/v0.1.0-locomo-frozen): full supplied contexts, prompts, raw HTTP requests/responses, raw judge outputs, provenance and preparation timings. Ten ordered archive parts total 667,525,468 bytes. Each public asset digest and size was verified against the local archive; concatenation SHA-256 is `b341113a43b57e055dfbb906b898b1196e82e18c130fdef52784092eda8a5a52`. Download and verify with `scripts/download_receipts.py` or use `results/artifact-sha256.json`.
 
 The source data/scorer is [LoCoMo-Refined](https://github.com/mem-eval-suite/LoCoMo_refined), pinned at `887091190789e8d6760e70b9edd696539923dc4f`. The answer template comes from [AML](https://github.com/AML-memory/agent-memory-leaderboard), pinned at `1b8142bfe0f20f1c5218d6b554aa0012de34e504`. Reader/judge weights are [mlx-community/Qwen3-14B-8bit](https://huggingface.co/mlx-community/Qwen3-14B-8bit), revision `da33cf28f06636847fd9e93e0a03d819b84cb55e`.
 

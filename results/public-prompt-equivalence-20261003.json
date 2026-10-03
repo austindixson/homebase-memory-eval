@@ -1,0 +1,17 @@
+{
+  "full-recall": {
+    "n": 1382,
+    "matching_prompts": 1382,
+    "all_prompt_hashes_match": true
+  },
+  "retrieval": {
+    "n": 1382,
+    "matching_prompts": 1382,
+    "all_prompt_hashes_match": true
+  },
+  "raw-full-context": {
+    "n": 1382,
+    "matching_prompts": 1382,
+    "all_prompt_hashes_match": true
+  }
+}
