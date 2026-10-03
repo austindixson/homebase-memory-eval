@@ -1,0 +1,34 @@
+{
+  "original_private_candidate_commit": "745609d5de83648d2183e732f34567bd878e2ea3",
+  "export_policy": "Transitive Python import closure of the evaluated model-free Add/Search and service, with every exported candidate runtime byte unchanged. Unused private chat/routing code is excluded.",
+  "runtime_hashes": {
+    "homebase/brain/__init__.py": "cec463f6d8de635244ac832906e98b4562ad3a4917eefbc328dfcc68ac117a55",
+    "homebase/brain/activity.py": "227437791b5271f2938096f3d11e81b0e5f925e5b120522f12a30344a017af18",
+    "homebase/brain/aml_adapter.py": "004a2092bf66f986aabac79c03356f16a880ca35b6c01fbf2dfb0f3fccfd53fd",
+    "homebase/brain/aml_model_free.py": "74697ff67c5feff72180fad0b44dda597c0ff6d09ede4ea1bb37a2537b76116e",
+    "homebase/brain/aml_service.py": "87a33a1b28b35742e7abaa9a30eb77e3d7165a344b9363fc4ae7cf418fda319a",
+    "homebase/brain/config.py": "0c92e217656c0bd42ad9d3d1ac28e6ebd947680ddc31cc37621f8b3c642d440d",
+    "homebase/brain/jev_client.py": "bd6deec3e51b991aa639e72f64facea26cad4f67d31471a0817078b6cb1293c7",
+    "homebase/brain/mem/__init__.py": "ae3cf553d3206cd27f6e795acd9a1d3a1845d7e1585bd8ad110c50ce34fd5807",
+    "homebase/brain/mem/ability.py": "6c1ba09203ca0f2af3ba9c2c6f33553bef0d2f77ed0316b8126da8db750589dd",
+    "homebase/brain/mem/cards.py": "0904e2b4d9f272549415e535c42c1d24a315f1f543c0ed642a9b42433adc300e",
+    "homebase/brain/mem/contracts.py": "cbd38552cc684e453e86ddbad406c3ed342991cb19a387772a1add87fe60449a",
+    "homebase/brain/mem/embed.py": "a3135d3e6592cc2a5452a684cabcd360a134ce5470c877b44844a49248d460b8",
+    "homebase/brain/mem/evidence.py": "b5a1e0d26ef97016284032550413d955006c9b5dfbc8017c1b289b6941a90598",
+    "homebase/brain/mem/filter.py": "2e8885be71ae30a87a1299119c5d0828ac235d2add1e5d0e9f436560cfd18404",
+    "homebase/brain/mem/flags.py": "c76937e690d4cebc97dca3a3a75e4d4fc682a65892f22765ab0ee3e9f5f585d0",
+    "homebase/brain/mem/gaps.py": "f208539e95f3bd9e1e4a650846bf91af0117edac0ddc75e484e9c1e0f9ce49f1",
+    "homebase/brain/mem/lexical.py": "eacda5469712c8c5647c06d1856260ca0ec477086333a95ac67c087fa6928e99",
+    "homebase/brain/mem/observe.py": "6146ce355a3ec6f63059bede8419d757ab91405a0c25ea74fd96f1eefcc1da3c",
+    "homebase/brain/mem/prove.py": "45bf40a71289e5c703c956d97c4b6b7200b18a360ef6b10452b61cbd01a424b1",
+    "homebase/brain/mem/relative.py": "34147718ea48c46d2982783ba05509afc90bc99234e488294a6eb8a6aecf72fb",
+    "homebase/brain/mem/retrieve.py": "875f8507453dc543ddb785aee21132ae67e4ac3a6e0a462de624e157428344fb",
+    "homebase/brain/mem/store.py": "096c4c38ef2191524980d13e0069529eee0adc4510d68fa173655abc2ba740a0",
+    "homebase/brain/mem/temporal.py": "5e6e969be4909c9312cf91c4ac49f52f32f13b2e1d6da35cc38d17e9788fed76",
+    "homebase/brain/mem/timeparse.py": "7f165a8accd9b47326cf4fde6acca7a185f53694abbbc850925d5681db72e80f",
+    "homebase/brain/mem/write.py": "95da4f31e344b74fb96229e54c27f623f57a4b53ebdf2b4542fb2dd1a844f51d"
+  },
+  "package_initializer_hashes": {
+    "homebase/__init__.py": "6ae3a58cb9aa24d810473911259a9eb01ac4d2f97b7872ed8a92d32fff5537a5"
+  }
+}

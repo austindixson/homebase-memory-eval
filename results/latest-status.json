@@ -1,0 +1,47 @@
+{
+  "time": 1791057250.9913862,
+  "job": "full-recall-refined-1382-807424a",
+  "lane": "gpu",
+  "enabled": true,
+  "running": false,
+  "complete": true,
+  "pending_gpu_ahead": [],
+  "methods": {
+    "full-recall": {
+      "answers": 1382,
+      "expected": 1382,
+      "answers_complete": true,
+      "scoring_complete": true,
+      "gate": {
+        "accuracy": 67.8726483357453,
+        "correct": 938,
+        "exceeds_published_reference": true,
+        "n": 1382
+      }
+    },
+    "retrieval": {
+      "answers": 1382,
+      "expected": 1382,
+      "answers_complete": true,
+      "scoring_complete": true,
+      "gate": {
+        "accuracy": 55.93342981186686,
+        "correct": 773,
+        "exceeds_published_reference": false,
+        "n": 1382
+      }
+    },
+    "raw-full-context": {
+      "answers": 1382,
+      "expected": 1382,
+      "answers_complete": true,
+      "scoring_complete": true,
+      "gate": {
+        "accuracy": 63.60347322720695,
+        "correct": 879,
+        "exceeds_published_reference": false,
+        "n": 1382
+      }
+    }
+  }
+}

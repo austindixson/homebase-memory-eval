@@ -1,0 +1,230 @@
+{
+  "complete": true,
+  "frozen_runner": "807424ab66ecd88f45e989fe6d2e47048c81e694",
+  "methods": {
+    "full-recall": {
+      "correct": 938,
+      "n": 1382,
+      "score_percent": 67.8726483357453,
+      "scored_sha256": "db2b4ec9bdb61f67497c218fb1bfa4b096253b1cfb84d881732f45d2402c915e",
+      "by_category": {
+        "1": {
+          "n": 213,
+          "correct": 107
+        },
+        "2": {
+          "n": 299,
+          "correct": 145
+        },
+        "3": {
+          "n": 68,
+          "correct": 37
+        },
+        "4": {
+          "n": 802,
+          "correct": 649
+        }
+      },
+      "by_conversation": {
+        "conv-26": {
+          "n": 138,
+          "correct": 92
+        },
+        "conv-30": {
+          "n": 72,
+          "correct": 50
+        },
+        "conv-41": {
+          "n": 136,
+          "correct": 98
+        },
+        "conv-42": {
+          "n": 179,
+          "correct": 102
+        },
+        "conv-43": {
+          "n": 162,
+          "correct": 115
+        },
+        "conv-44": {
+          "n": 114,
+          "correct": 78
+        },
+        "conv-47": {
+          "n": 137,
+          "correct": 96
+        },
+        "conv-48": {
+          "n": 165,
+          "correct": 108
+        },
+        "conv-49": {
+          "n": 135,
+          "correct": 93
+        },
+        "conv-50": {
+          "n": 144,
+          "correct": 106
+        }
+      }
+    },
+    "retrieval": {
+      "correct": 773,
+      "n": 1382,
+      "score_percent": 55.93342981186686,
+      "scored_sha256": "52a332caa4b3c3bd94a2b113bb1a66978d538844a1e95c47407f8b5717614c6c",
+      "by_category": {
+        "1": {
+          "n": 213,
+          "correct": 66
+        },
+        "2": {
+          "n": 299,
+          "correct": 140
+        },
+        "3": {
+          "n": 68,
+          "correct": 31
+        },
+        "4": {
+          "n": 802,
+          "correct": 536
+        }
+      },
+      "by_conversation": {
+        "conv-26": {
+          "n": 138,
+          "correct": 72
+        },
+        "conv-30": {
+          "n": 72,
+          "correct": 45
+        },
+        "conv-41": {
+          "n": 136,
+          "correct": 81
+        },
+        "conv-42": {
+          "n": 179,
+          "correct": 105
+        },
+        "conv-43": {
+          "n": 162,
+          "correct": 91
+        },
+        "conv-44": {
+          "n": 114,
+          "correct": 66
+        },
+        "conv-47": {
+          "n": 137,
+          "correct": 69
+        },
+        "conv-48": {
+          "n": 165,
+          "correct": 82
+        },
+        "conv-49": {
+          "n": 135,
+          "correct": 84
+        },
+        "conv-50": {
+          "n": 144,
+          "correct": 78
+        }
+      }
+    },
+    "raw-full-context": {
+      "correct": 879,
+      "n": 1382,
+      "score_percent": 63.60347322720695,
+      "scored_sha256": "6a81927b22a4cbdb9e1e50d2102dfe73e272fb80506007c0437064715c27f25d",
+      "by_category": {
+        "1": {
+          "n": 213,
+          "correct": 106
+        },
+        "2": {
+          "n": 299,
+          "correct": 77
+        },
+        "3": {
+          "n": 68,
+          "correct": 34
+        },
+        "4": {
+          "n": 802,
+          "correct": 662
+        }
+      },
+      "by_conversation": {
+        "conv-26": {
+          "n": 138,
+          "correct": 79
+        },
+        "conv-30": {
+          "n": 72,
+          "correct": 48
+        },
+        "conv-41": {
+          "n": 136,
+          "correct": 89
+        },
+        "conv-42": {
+          "n": 179,
+          "correct": 108
+        },
+        "conv-43": {
+          "n": 162,
+          "correct": 103
+        },
+        "conv-44": {
+          "n": 114,
+          "correct": 81
+        },
+        "conv-47": {
+          "n": 137,
+          "correct": 87
+        },
+        "conv-48": {
+          "n": 165,
+          "correct": 100
+        },
+        "conv-49": {
+          "n": 135,
+          "correct": 86
+        },
+        "conv-50": {
+          "n": 144,
+          "correct": 98
+        }
+      }
+    }
+  },
+  "full_recall_comparisons": {
+    "retrieval": {
+      "difference_pp": 11.939218523878438,
+      "full_only_correct": 309,
+      "baseline_only_correct": 144,
+      "both_correct": 629,
+      "both_wrong": 300,
+      "conversation_cluster_interval_98_75_percent_pp": [
+        5.922549496289447,
+        16.568052759895195
+      ]
+    },
+    "raw-full-context": {
+      "difference_pp": 4.2691751085383505,
+      "full_only_correct": 133,
+      "baseline_only_correct": 74,
+      "both_correct": 805,
+      "both_wrong": 370,
+      "conversation_cluster_interval_98_75_percent_pp": [
+        0.6410128409928731,
+        7.048458149779735
+      ]
+    }
+  },
+  "control_interval_method": "Descriptive 98.75% interval, reusing preregistered competitor resampling parameters: 100,000 whole-conversation draws with replacement, question-weighted differences, seed 20261002, percentiles .625 and 99.375; Python stdlib random, linear percentile interpolation. No matched competitor has run.",
+  "limits": "Completed candidate and attribution controls only; matched competitors, independent reproduction, public release and leaderboard submission remain outstanding."
+}

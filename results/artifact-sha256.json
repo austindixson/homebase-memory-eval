@@ -1,0 +1,8 @@
+{
+  "artifact": "locomo-candidate-receipts-20261003.tar.gz",
+  "sha256": "b341113a43b57e055dfbb906b898b1196e82e18c130fdef52784092eda8a5a52",
+  "bytes": 667525468,
+  "archive_files_scanned": 15314,
+  "public_files_scanned": 102,
+  "contents": "Owned frozen public-benchmark contexts, prompts, raw request/response receipts, predictions, official scores, model/source provenance and timings. No stores, provider credentials, private history or unrelated user conversations."
+}

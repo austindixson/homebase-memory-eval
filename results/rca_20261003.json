@@ -1,0 +1,489 @@
+{
+  "status": "post-hoc descriptive RCA, no reruns or benchmark tuning",
+  "frozen_runner": "807424ab66ecd88f45e989fe6d2e47048c81e694",
+  "coverage_definition": "Casefold and whitespace-normalized full annotated evidence-message text is a substring of supplied evidence. Annotation coverage is a proxy, not sufficiency or a causal attribution.",
+  "scored_sha256": {
+    "full-recall": "db2b4ec9bdb61f67497c218fb1bfa4b096253b1cfb84d881732f45d2402c915e",
+    "retrieval": "52a332caa4b3c3bd94a2b113bb1a66978d538844a1e95c47407f8b5717614c6c"
+  },
+  "coverage": [
+    {
+      "method": "full-recall",
+      "bins": {
+        "all": 1376,
+        "unknown": 6
+      },
+      "outcomes": {
+        "all": {
+          "n": 1376,
+          "correct": 933
+        },
+        "unknown": {
+          "n": 6,
+          "correct": 5
+        }
+      },
+      "categories": {
+        "2": {
+          "all": 298,
+          "unknown": 1
+        },
+        "3": {
+          "all": 64,
+          "unknown": 4
+        },
+        "1": {
+          "all": 212,
+          "unknown": 1
+        },
+        "4": {
+          "all": 802
+        }
+      },
+      "truncated": 0,
+      "tokens_min": 15380,
+      "tokens_max": 41069,
+      "tokens_mean": 30001.237337192473,
+      "examples": []
+    },
+    {
+      "method": "retrieval",
+      "bins": {
+        "all": 839,
+        "none": 378,
+        "some": 159,
+        "unknown": 6
+      },
+      "outcomes": {
+        "all": {
+          "n": 839,
+          "correct": 644
+        },
+        "none": {
+          "n": 378,
+          "correct": 75
+        },
+        "some": {
+          "n": 159,
+          "correct": 50
+        },
+        "unknown": {
+          "n": 6,
+          "correct": 4
+        }
+      },
+      "categories": {
+        "2": {
+          "all": 221,
+          "none": 58,
+          "some": 19,
+          "unknown": 1
+        },
+        "3": {
+          "none": 23,
+          "all": 24,
+          "unknown": 4,
+          "some": 17
+        },
+        "1": {
+          "all": 36,
+          "none": 88,
+          "some": 88,
+          "unknown": 1
+        },
+        "4": {
+          "all": 558,
+          "none": 209,
+          "some": 35
+        }
+      },
+      "truncated": 0,
+      "tokens_min": 991,
+      "tokens_max": 2712,
+      "tokens_mean": 1506.4356005788711,
+      "examples": [
+        {
+          "qa_id": "conv-26#q0001",
+          "question": "When did Melanie paint a sunrise?",
+          "gold": [
+            "2022"
+          ],
+          "prediction": "2022",
+          "full_prediction": "Last year.",
+          "full_score": 0.0,
+          "retrieval_score": 1.0,
+          "coverage": "all",
+          "source_matches": [
+            {
+              "id": "D1:12",
+              "text": "You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this.",
+              "present": true
+            }
+          ]
+        },
+        {
+          "qa_id": "conv-26#q0017",
+          "question": "When did Melanie go to the museum?",
+          "gold": [
+            "5 July 2023"
+          ],
+          "prediction": "2023-07-05",
+          "full_prediction": "2 July 2023",
+          "full_score": 0.0,
+          "retrieval_score": 1.0,
+          "coverage": "all",
+          "source_matches": [
+            {
+              "id": "D6:4",
+              "text": "That's awesome, Caroline! Congrats on following your dreams. Yesterday I took the kids to the museum - it was so cool spending time with them and seeing their eyes light up!",
+              "present": true
+            }
+          ]
+        },
+        {
+          "qa_id": "conv-26#q0038",
+          "question": "What are Melanie's pets' names?",
+          "gold": [
+            "Oliver, Luna, Bailey"
+          ],
+          "prediction": "Oliver and Bailey.",
+          "full_prediction": "Luna and Oliver.",
+          "full_score": 0.0,
+          "retrieval_score": 0.0,
+          "coverage": "some",
+          "source_matches": [
+            {
+              "id": "D13:4",
+              "text": "Yeah, it's normal to be both excited and nervous with a big decision. And thanks for asking, they're good- we got another cat named Bailey too. Here's a pic of Oliver. Can you show me one of Oscar?",
+              "present": true
+            },
+            {
+              "id": "D7:18",
+              "text": "Luna and Oliver! They are so sweet and playful - they really liven up the house! Just got some new shoes, too!",
+              "present": false
+            }
+          ]
+        },
+        {
+          "qa_id": "conv-26#q0045",
+          "question": "What instruments does Melanie play?",
+          "gold": [
+            "clarinet and violin"
+          ],
+          "prediction": "Clarinet.",
+          "full_prediction": "Melanie plays the clarinet.",
+          "full_score": 0.0,
+          "retrieval_score": 0.0,
+          "coverage": "all",
+          "source_matches": [
+            {
+              "id": "D15:26",
+              "text": "Yeah, I play clarinet! Started when I was young and it's been great. Expression of myself and a way to relax.",
+              "present": true
+            },
+            {
+              "id": "D2:5",
+              "text": "Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!",
+              "present": true
+            }
+          ]
+        },
+        {
+          "qa_id": "conv-26#q0069",
+          "question": "What are Caroline's plans for the summer?",
+          "gold": [
+            "researching adoption agencies"
+          ],
+          "prediction": "Camping next month, family outings, and exploring nature.",
+          "full_prediction": "Caroline plans to attend an LGBTQ art show in August.",
+          "full_score": 0.0,
+          "retrieval_score": 0.0,
+          "coverage": "none",
+          "source_matches": [
+            {
+              "id": "D2:8",
+              "text": "Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it.",
+              "present": false
+            }
+          ]
+        },
+        {
+          "qa_id": "conv-26#q0079",
+          "question": "What did Melanie and her family do while camping?",
+          "gold": [
+            "explored nature, roasted marshmallows, and went on a hike"
+          ],
+          "prediction": "They roasted marshmallows, told stories around the campfire, and enjoyed each other's company.",
+          "full_prediction": "They roasted marshmallows, told stories around the campfire, and enjoyed each other's company.",
+          "full_score": 0.0,
+          "retrieval_score": 0.0,
+          "coverage": "none",
+          "source_matches": [
+            {
+              "id": "D4:8",
+              "text": "It was an awesome time, Caroline! We explored nature, roasted marshmallows around the campfire and even went on a hike. The view from the top was amazing! The 2 younger kids love nature. It was so special having these moments together as a family - I'll never forget it!",
+              "present": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        1,
+        0
+      ],
+      "n": 309,
+      "retrieval_coverage": {
+        "all": 72,
+        "none": 184,
+        "some": 52,
+        "unknown": 1
+      },
+      "full_coverage": {
+        "all": 308,
+        "unknown": 1
+      }
+    },
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "n": 144,
+      "retrieval_coverage": {
+        "all": 124,
+        "some": 9,
+        "none": 11
+      },
+      "full_coverage": {
+        "all": 144
+      }
+    },
+    {
+      "pair": [
+        0,
+        0
+      ],
+      "n": 300,
+      "retrieval_coverage": {
+        "all": 123,
+        "none": 119,
+        "some": 57,
+        "unknown": 1
+      },
+      "full_coverage": {
+        "all": 299,
+        "unknown": 1
+      }
+    },
+    {
+      "pair": [
+        1,
+        1
+      ],
+      "n": 629,
+      "retrieval_coverage": {
+        "all": 520,
+        "some": 41,
+        "none": 64,
+        "unknown": 4
+      },
+      "full_coverage": {
+        "all": 625,
+        "unknown": 4
+      }
+    }
+  ],
+  "selected_rank_examples": [
+    {
+      "qa_id": "conv-26#q0001",
+      "question": "When did Melanie paint a sunrise?",
+      "facts": [
+        {
+          "id": "D1:12",
+          "ranks": [
+            3
+          ],
+          "texts": [
+            "assistant: Melanie: You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this.\n  [images] http://candicealexander.com/cdn/shop/products/IMG_7269_a49d5af8-c76c-4ecd-ae20-48c08cb11dec.jpg\n  [caption] a photo of a painting of a sunset over a lake\n  [query] painting sunrise"
+          ]
+        }
+      ],
+      "neighbors": [
+        [
+          "user: Caroline: I'm keen on counseling or working in mental health - I'd love to support those with similar issues.",
+          "assistant: Melanie: You'd be a great counselor! Your empathy and understanding will really help the people you work with. By the way, take a look at this.\n  [images] http://candicealexander.com/cdn/shop/products/IMG_7269_a49d5af8-c76c-4ecd-ae20-48c08cb11dec.jpg\n  [caption] a photo of a painting of a sunset over a lake\n  [query] painting sunrise",
+          "user: Caroline: Thanks, Melanie! That's really sweet. Is this your own painting?"
+        ]
+      ]
+    },
+    {
+      "qa_id": "conv-26#q0017",
+      "question": "When did Melanie go to the museum?",
+      "facts": [
+        {
+          "id": "D6:4",
+          "ranks": [
+            2
+          ],
+          "texts": [
+            "assistant: Melanie: That's awesome, Caroline! Congrats on following your dreams. Yesterday I took the kids to the museum - it was so cool spending time with them and seeing their eyes light up!\n  [images] https://live.staticflickr.com/3201/2867258131_2d8bc22859_b.jpg\n  [caption] a photography of two children playing in a water play area\n  [query] kids laughing dinosaur exhibit museum\n(time: Yesterday = 5 July 2023)"
+          ]
+        }
+      ],
+      "neighbors": [
+        [
+          "user: Caroline: Since our last chat, I've been looking into counseling or mental health work more. I'm passionate about helping people and making a positive impact. It's tough, but really rewarding too. Anything new happening with you?",
+          "assistant: Melanie: That's awesome, Caroline! Congrats on following your dreams. Yesterday I took the kids to the museum - it was so cool spending time with them and seeing their eyes light up!\n  [images] https://live.staticflickr.com/3201/2867258131_2d8bc22859_b.jpg\n  [caption] a photography of two children playing in a water play area\n  [query] kids laughing dinosaur exhibit museum\n(time: Yesterday = 5 July 2023)",
+          "user: Caroline: Melanie, that's a great pic! That must have been awesome. What were they so stoked about?"
+        ]
+      ]
+    },
+    {
+      "qa_id": "conv-26#q0038",
+      "question": "What are Melanie's pets' names?",
+      "facts": [
+        {
+          "id": "D13:4",
+          "ranks": [
+            18
+          ],
+          "texts": [
+            "assistant: Melanie: Yeah, it's normal to be both excited and nervous with a big decision. And thanks for asking, they're good- we got another cat named Bailey too. Here's a pic of Oliver. Can you show me one of Oscar?\n  [images] https://i.redd.it/kgggim1gom951.jpg\n  [caption] a photo of a black dog laying in the grass with a frisbee\n  [query] pets Luna Oliver playing frisbee backyard"
+          ]
+        },
+        {
+          "id": "D7:18",
+          "ranks": [
+            81
+          ],
+          "texts": [
+            "assistant: Melanie: Luna and Oliver! They are so sweet and playful - they really liven up the house! Just got some new shoes, too!\n  [images] https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwGRNI2jDkrALJHgL2LWfW2rUGhN-GA4OL_gXU2fHPyxtst2MPrv9hkyOMdpj5SppLNYiQrcXUUq90vv5es8ueswy2tuu0Lqa2lh2vKOfDZ5SXSdLVMVvBrfLbFJG19QiqDbv1xs38fv-atd4MYOesJ4c89sQTzv6k93PDQ5T0dwVJV9O2FF95woyP3Q/s4032/IMG_9747.jpg\n  [caption] a photo of a person wearing pink sneakers on a white rug\n  [query] purple running shoe"
+          ]
+        }
+      ],
+      "neighbors": [
+        [
+          "user: Caroline: Ah, they're adorable! What are their names? Pets sure do bring so much joy to us!",
+          "assistant: Melanie: Luna and Oliver! They are so sweet and playful - they really liven up the house! Just got some new shoes, too!\n  [images] https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwGRNI2jDkrALJHgL2LWfW2rUGhN-GA4OL_gXU2fHPyxtst2MPrv9hkyOMdpj5SppLNYiQrcXUUq90vv5es8ueswy2tuu0Lqa2lh2vKOfDZ5SXSdLVMVvBrfLbFJG19QiqDbv1xs38fv-atd4MYOesJ4c89sQTzv6k93PDQ5T0dwVJV9O2FF95woyP3Q/s4032/IMG_9747.jpg\n  [caption] a photo of a person wearing pink sneakers on a white rug\n  [query] purple running shoe",
+          "user: Caroline: Love that purple color! For walking or running?"
+        ],
+        [
+          "user: Caroline: Thanks, Mel! Exciting but kinda nerve-wracking. Parenting's such a big responsibility. And yup, I do- Oscar, my guinea pig. He's been great. How are your pets?",
+          "assistant: Melanie: Yeah, it's normal to be both excited and nervous with a big decision. And thanks for asking, they're good- we got another cat named Bailey too. Here's a pic of Oliver. Can you show me one of Oscar?\n  [images] https://i.redd.it/kgggim1gom951.jpg\n  [caption] a photo of a black dog laying in the grass with a frisbee\n  [query] pets Luna Oliver playing frisbee backyard",
+          "user: Caroline: He's so cute! What’s the funniest thing Oliver's done? And sure, check out this pic of him eating parsley! Veggies are his fave!\n  [images] https://cdn.i-scmp.com/sites/default/files/styles/landscape/public/d8/yp/images/shutterstock533807500.jpg\n  [caption] a photography of a guinea in a cage with hay and hay\n  [query] oscar munching parsley playpen"
+        ]
+      ]
+    },
+    {
+      "qa_id": "conv-26#q0045",
+      "question": "What instruments does Melanie play?",
+      "facts": [
+        {
+          "id": "D15:26",
+          "ranks": [
+            15
+          ],
+          "texts": [
+            "assistant: Melanie: Yeah, I play clarinet! Started when I was young and it's been great. Expression of myself and a way to relax.\n  [caption] a photo of a sheet music with notes and a pencil"
+          ]
+        },
+        {
+          "id": "D2:5",
+          "ranks": [
+            14
+          ],
+          "texts": [
+            "assistant: Melanie: Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!"
+          ]
+        }
+      ],
+      "neighbors": [
+        [
+          "user: Caroline: I totally agree, Melanie. Taking care of ourselves is so important - even if it's not always easy. Great that you're prioritizing self-care.",
+          "assistant: Melanie: Yeah, it's tough. So I'm carving out some me-time each day - running, reading, or playing my violin - which refreshes me and helps me stay present for my fam!",
+          "user: Caroline: That's great, Mel! Taking time for yourself is so important. You're doing an awesome job looking after yourself and your family!"
+        ],
+        [
+          "user: Caroline: Thanks, Melanie! Appreciate it. You play any instruments?",
+          "assistant: Melanie: Yeah, I play clarinet! Started when I was young and it's been great. Expression of myself and a way to relax.\n  [caption] a photo of a sheet music with notes and a pencil",
+          "user: Caroline: Cool! Got any fav tunes?"
+        ]
+      ]
+    },
+    {
+      "qa_id": "conv-26#q0069",
+      "question": "What are Caroline's plans for the summer?",
+      "facts": [
+        {
+          "id": "D2:8",
+          "ranks": [
+            342
+          ],
+          "texts": [
+            "user: Caroline: Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it."
+          ]
+        }
+      ],
+      "neighbors": [
+        [
+          "assistant: Melanie: Thanks, Caroline. It's still a work in progress, but I'm doing my best. My kids are so excited about summer break! We're thinking about going camping next month. Any fun plans for the summer?\n(time: next month = June 2023)",
+          "user: Caroline: Researching adoption agencies — it's been a dream to have a family and give a loving home to kids who need it.",
+          "assistant: Melanie: Wow, Caroline! That's awesome! Taking in kids in need - you're so kind. Your future family is gonna be so lucky to have you!"
+        ]
+      ]
+    },
+    {
+      "qa_id": "conv-26#q0079",
+      "question": "What did Melanie and her family do while camping?",
+      "facts": [
+        {
+          "id": "D4:8",
+          "ranks": [
+            134
+          ],
+          "texts": [
+            "assistant: Melanie: It was an awesome time, Caroline! We explored nature, roasted marshmallows around the campfire and even went on a hike. The view from the top was amazing! The 2 younger kids love nature. It was so special having these moments together as a family - I'll never forget it!"
+          ]
+        }
+      ],
+      "neighbors": [
+        [
+          "user: Caroline: Sounds great, Mel. Glad you made some new family mems. How was it? Anything fun?",
+          "assistant: Melanie: It was an awesome time, Caroline! We explored nature, roasted marshmallows around the campfire and even went on a hike. The view from the top was amazing! The 2 younger kids love nature. It was so special having these moments together as a family - I'll never forget it!",
+          "user: Caroline: That's awesome, Melanie! Family moments like that are so special. Glad y'all had such a great time."
+        ]
+      ]
+    },
+    {
+      "full_context_museum_excerpt": "ing or mental health work more. I'm passionate about helping people and making a positive impact. It's tough, but really rewarding too. Anything new happening with you?\nassistant: Melanie: That's awesome, Caroline! Congrats on following your dreams. Yesterday I took the kids to the museum - it was so cool spending time with them and seeing their eyes light up!\n  [images] https://live.staticflickr.com/3201/2867258131_2d8bc22859_b.jpg\n  [caption] a photography of two children playing in a water play area\n  [query] kids laughing dinosaur exhibit museum\n(time: Yesterday = 5 July 2023)\nuser: Caroline: Melanie, that's a great pic! That must have be"
+    }
+  ],
+  "categories": [
+    {
+      "category": "1",
+      "n": 213,
+      "full_correct": 107,
+      "retrieval_correct": 66
+    },
+    {
+      "category": "2",
+      "n": 299,
+      "full_correct": 145,
+      "retrieval_correct": 140
+    },
+    {
+      "category": "3",
+      "n": 68,
+      "full_correct": 37,
+      "retrieval_correct": 31
+    },
+    {
+      "category": "4",
+      "n": 802,
+      "full_correct": 649,
+      "retrieval_correct": 536
+    }
+  ]
+}
