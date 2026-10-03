@@ -4,5 +4,68 @@
   "bytes": 667525468,
   "archive_files_scanned": 15314,
   "public_files_scanned": 102,
-  "contents": "Owned frozen public-benchmark contexts, prompts, raw request/response receipts, predictions, official scores, model/source provenance and timings. No stores, provider credentials, private history or unrelated user conversations."
+  "contents": "Owned frozen public-benchmark contexts, prompts, raw request/response receipts, predictions, official scores, model/source provenance and timings. No stores, provider credentials, private history or unrelated user conversations.",
+  "release_url": "https://github.com/austindixson/homebase-memory-eval/releases/tag/v0.1.0-locomo-frozen",
+  "parts": [
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-aa",
+      "bytes": 67108864,
+      "sha256": "a53ba9c50f5ab6f742b32d639f8c4a1901e32a313bdb0490b0e3e6ae68b09834",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-aa"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ab",
+      "bytes": 67108864,
+      "sha256": "ffd63922cb70c012fa7c535871c52d9873577764ee2837b107828b09fb223508",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ab"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ac",
+      "bytes": 67108864,
+      "sha256": "a7f1055b6135039014b79ff8c52b654ed97860a566a8e5ec37b0d6d294d0c4e2",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ac"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ad",
+      "bytes": 67108864,
+      "sha256": "6159b1281ac1436ff18fd54e2a60b11359870b09e921af42d83c2de5ba48be90",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ad"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ae",
+      "bytes": 67108864,
+      "sha256": "e94a9d521e7d17fb9f6e590aa5b29b274f666c4a30b98233a4b3bf34354d498e",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ae"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-af",
+      "bytes": 67108864,
+      "sha256": "4a047497abced38b8cae5b45ac71921ce96ef4ab869a1864eefd17572ade5112",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-af"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ag",
+      "bytes": 67108864,
+      "sha256": "4034d6c792231c5c1a955ebc81b016273878931dc7b1306f42660ba436b0f203",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ag"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ah",
+      "bytes": 67108864,
+      "sha256": "0db25a564f4ef55a892bd41d0f281424041fa112497b0a20a5b344fa7a7fc5ba",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ah"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-ai",
+      "bytes": 67108864,
+      "sha256": "e5e6c38220ba355aedeb40bcb53048291f1d2a287076c336e8622863498c691f",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-ai"
+    },
+    {
+      "name": "locomo-candidate-receipts.tar.gz.part-aj",
+      "bytes": 63545692,
+      "sha256": "ab9576958e43fbb471bc6b276e25a20dd6cc158f57cf1b6917b9dac9f1b1f11b",
+      "url": "https://github.com/austindixson/homebase-memory-eval/releases/download/v0.1.0-locomo-frozen/locomo-candidate-receipts.tar.gz.part-aj"
+    }
+  ]
 }
