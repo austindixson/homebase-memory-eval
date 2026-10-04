@@ -1,6 +1,6 @@
 # Home Base memory: LoCoMo-Refined reproduction
 
-Complete public-benchmark evaluation of a model-free source-memory adapter. **This is not an official leaderboard entry or a claim of global #1.** Matched competitor evaluation and independent operator reproduction remain in progress.
+Complete public-benchmark evaluation of a model-free source-memory adapter. **This is not an official leaderboard entry or a claim of global #1.** It exceeds the highest open-source score in the pinned published LoCoMo-Refined table. An independent operator rerun remains pending; see [the rerun instructions](INDEPENDENT_RERUN.md).
 
 | Method | Correct / 1,382 | Official Refined score |
 | --- | ---: | ---: |
@@ -77,9 +77,11 @@ Then run the candidate with the untouched official scorer:
 
 Independent reproduction passes the registered gate only if the new candidate score and the original score both exceed the published reference threshold (at least 880/1,382) and differ by at most one percentage point. Publish both outcomes, including failures. A second run by the same agent/operator is an internal reproduction, not an independent verification.
 
-## Competitors
+## Published comparison
 
-Current public source versions were pinned before the original candidate result. The MemPalace comparison executes its unmodified hybrid session retrieval with a common top-20 limit and MiniLM embeddings, then routes retrieved source evidence through the same frozen reader/scorer. It does not equate native retrieval recall with answer accuracy or claim historical top-10 settings. Other comparator configurations and any unavailable methods must be disclosed. The comparison criteria are in `LOCOMO_REFINED_ACCEPTANCE.md` and `LOCOMO_MATCHED_COMPARATORS_20261003.md`.
+The [published table at the frozen benchmark commit](https://github.com/mem-eval-suite/LoCoMo_refined/blob/887091190789e8d6760e70b9edd696539923dc4f/README.md#-evaluation-results) reports MemOS 63.60%, MemPalace 58.68%, EverMemOS 58.25%, and Mem0 48.91%. Our 67.87% exceeds the highest of those open-source references by **4.27 percentage points**. The table re-scores existing predictions and does not establish a common answer-generation configuration. This comparison does not prove superiority under matched generation conditions, a global open-source record, or AML overall rank #1. Its commercial MemoraX AI reference is 82.65%.
+
+On 2026-10-03 the user narrowed the task to beating published results rather than rerunning competitors. MemPalace was stopped after 39 of 1,382 answers, Mem0 was disabled before inference, and MemOS/EverOS were not started. No partial comparator score is claimed. The original registration is retained unchanged; [the scope amendment](EVALUATION_SCOPE_20261003.md) records that its optional matched-superiority claim is no longer being pursued. Candidate answers, controls, scorer, historical-reference threshold and independent reproduction tolerance are unchanged.
 
 ## Licenses
 
