@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "base": "http://127.0.0.1:8755",
+  "source_commit": "4aec8864ec39166681e1ff876b9aead390bbcd91",
+  "test_user": "deployment-check-60077b2fd147495b981a0c3d978b24c4",
+  "checks": [
+    "health and fixed model-free provenance",
+    "missing and invalid credentials rejected",
+    "Add echo, idempotency and conflict rejection",
+    "100/100 original facts preserved",
+    "top_k bound",
+    "user isolation"
+  ],
+  "pass_rule": "All assertions pass; no quality score or model calls.",
+  "search_seconds": 0.004258207976818085,
+  "add_seconds": [
+    0.01015049999114126,
+    0.006515374989248812,
+    0.006886124960146844,
+    0.008187875035218894,
+    0.008490332984365523
+  ],
+  "source_turns": 100,
+  "returned_items": 1,
+  "build": {
+    "window": 0,
+    "whole_session": false,
+    "computed_gaps": false,
+    "fact_cards": false,
+    "full_recall": true,
+    "recall_budget_tokens": 100000,
+    "recall_block_chars": 6000,
+    "code_sha": "2d57f688d71b",
+    "source_commit": "4aec8864ec39166681e1ff876b9aead390bbcd91",
+    "registry_sha": "0c5608b56bf8fd4137f4048e78af9f30c3fdbee5eed7db766a45750e5d0fabcc",
+    "profile": "model-free",
+    "retrieval": "bm25-source-turns",
+    "llm_model": null,
+    "embedding_model": null
+  }
+}

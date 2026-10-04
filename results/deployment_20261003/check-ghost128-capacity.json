@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "host": "ghost128",
+  "turns": 512,
+  "add_requests": 74,
+  "add_max_seconds": 0.026368541992269456,
+  "add_median_seconds": 0.008683292078785598,
+  "search_seconds": 0.18093058292288333,
+  "returned_items": 2,
+  "estimated_returned_tokens": 99465,
+  "over_budget_history": true,
+  "test_user": "capacity-check-98a1a33a709a4f9c9c547f2a83006405",
+  "scope": "Synthetic CPU-only functional check; not an AML score or throughput guarantee"
+}

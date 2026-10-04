@@ -14,6 +14,10 @@ Full recall returns source conversations chronologically when they fit 100,000 e
 
 ## Code and evidence
 
+The frozen candidate now has a participant-operated HTTPS Add/Search deployment
+on Ghost128. See the [deployment details and verification receipts](deploy/aml/PUBLIC_DEPLOYMENT.md).
+Official AML access and evaluation remain pending.
+
 `runtime-export.json` maps 25 exported brain modules to their exact original evaluated bytes. Those hashes match the original execution manifest. Unused private chat/routing code and private Git history are excluded. The public harness adds support for verifying this export without needing the private commit; it does not change memory code or the official scorer.
 
 - `results/manifest.json`: original frozen model, data, prompt, tokenizer and runtime hashes.

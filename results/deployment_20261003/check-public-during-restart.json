@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "base": "https://ghost128s-macbook-pro.tailf163d8.ts.net/aml-memory",
+  "source_commit": "4aec8864ec39166681e1ff876b9aead390bbcd91",
+  "test_user": "deployment-check-1d7d21e0c645474e96a694829cb21c71",
+  "checks": [],
+  "pass_rule": "All assertions pass; no quality score or model calls."
+}

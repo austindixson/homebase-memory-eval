@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "base": "https://ghost128s-macbook-pro.tailf163d8.ts.net/aml-memory",
+  "source_commit": "4aec8864ec39166681e1ff876b9aead390bbcd91",
+  "test_user": "deployment-check-fa513e67ed0246e89d5c7c64ab492fc1",
+  "checks": [
+    "health and fixed model-free provenance",
+    "missing and invalid credentials rejected",
+    "Add echo, idempotency and conflict rejection",
+    "100/100 original facts preserved",
+    "top_k bound",
+    "user isolation",
+    "previous data persisted across service restart"
+  ],
+  "pass_rule": "All assertions pass; no quality score or model calls.",
+  "search_seconds": 0.018274375004693866,
+  "add_seconds": [
+    0.14308975002495572,
+    0.024264957988634706,
+    0.024115332984365523,
+    0.02016420802101493,
+    0.017857292026747018
+  ],
+  "source_turns": 100,
+  "returned_items": 1,
+  "build": {
+    "window": 0,
+    "whole_session": false,
+    "computed_gaps": false,
+    "fact_cards": false,
+    "full_recall": true,
+    "recall_budget_tokens": 100000,
+    "recall_block_chars": 6000,
+    "code_sha": "2d57f688d71b",
+    "source_commit": "4aec8864ec39166681e1ff876b9aead390bbcd91",
+    "registry_sha": "0c5608b56bf8fd4137f4048e78af9f30c3fdbee5eed7db766a45750e5d0fabcc",
+    "profile": "model-free",
+    "retrieval": "bm25-source-turns",
+    "llm_model": null,
+    "embedding_model": null
+  }
+}
