@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "base": "https://ghost128s-macbook-pro.tailf163d8.ts.net/aml-memory",
+  "public_ip": "208.111.34.11",
+  "pass_rule": "TLS-verified requests forced to public DNS address: health, authenticated Add/Search and isolation all pass.",
+  "checks": [
+    "public DNS IP forced, no tailnet routing",
+    "TLS certificate verified",
+    "health",
+    "authenticated Add",
+    "authenticated Search",
+    "user isolation"
+  ]
+}
